@@ -13,7 +13,6 @@ import {
     Checkbox,
 } from "@material-tailwind/react";
 
-
 export function Fosil() {
     return (
         <Card className="mb-12">
