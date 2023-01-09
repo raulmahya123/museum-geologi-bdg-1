@@ -20,6 +20,7 @@ import {
   EllipsisVerticalIcon,
   ArrowUpIcon,
 } from "@heroicons/react/24/outline";
+import Gis from "@/context/Gis";
 
 import { StatisticsCard } from "@/widgets/cards";
 
@@ -251,6 +252,9 @@ export function Home() {
               &nbsp;just updated
             </Typography>
           </CardFooter>
+
+
+         
         </Card>
 
       </div>
@@ -440,6 +444,9 @@ export function Home() {
             )}
           </CardBody>
         </Card> */}
+         <CardBody>
+        <Gis/>
+        </CardBody>
       </div>
     </div>
   );

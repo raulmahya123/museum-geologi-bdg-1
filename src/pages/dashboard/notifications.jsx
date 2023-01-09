@@ -7,7 +7,7 @@ import {
   CardBody,
 } from "@material-tailwind/react";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
-
+import Gis from "@/context/Gis";
 export function Notifications() {
   const [showAlerts, setShowAlerts] = React.useState({
     blue: true,
@@ -86,6 +86,7 @@ export function Notifications() {
             </Alert>
           ))}
         </CardBody>
+        
       </Card>
     </div>
   );
