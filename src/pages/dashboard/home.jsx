@@ -444,11 +444,15 @@ export function Home() {
             )}
           </CardBody>
         </Card> */}
-         <CardBody>
+        
+      </div>
+      <Card>
+         <CardBody className="overflow-x-scroll px-0 pt-0 pb-2">
         <Gis/>
         </CardBody>
-      </div>
+        </Card>
     </div>
+
   );
 }
 
